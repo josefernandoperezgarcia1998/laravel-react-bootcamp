@@ -5,6 +5,7 @@ import InputError from '@/Components/InputError';
 import PrimaryButton from '@/Components/PrimaryButton';
 import { useForm, Head } from '@inertiajs/inertia-react';
 
+
 export default function Index({ auth, chirps }) {
     const { data, setData, post, processing, reset, errors } = useForm({
     message: '',
